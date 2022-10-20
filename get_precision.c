@@ -32,10 +32,8 @@ int get_precision(const char *format, int *i, va_list list)
 			break;
 		}
 		else
-			break;
+		break;
 	}
-
 	*i = curr_i - 1;
-
 	return (precision);
 }
